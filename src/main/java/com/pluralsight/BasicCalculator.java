@@ -19,7 +19,6 @@ public class BasicCalculator {
         float secondVariable = scanner.nextFloat();
 
 
-
         // Display variable
         //System.out.println("Enter the second number: " + secondVariable);
 
