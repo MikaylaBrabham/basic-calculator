@@ -6,20 +6,19 @@ import java.util.*;
 public class BasicCalculator {
     public static void main(String[] args) {
 
-
         // Add my scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Tell user to input their first variable
-        System.out.print("What is your first number? ");
+             // Tell user to input their first variable and assign
+        System.out.print("Enter the first number: ");
         float firstVariable = scanner.nextFloat();
 
-        // Tell user to input their first variable
-        System.out.print("What is your second number? ");
+             // Tell user to input their first variable and assign
+        System.out.print("Enter the second number: ");
         float secondVariable = scanner.nextFloat();
 
 
-        // Display variable
+        // Display variables
         //System.out.println("Enter the second number: " + secondVariable);
 
 
