@@ -9,24 +9,24 @@ public class BasicCalculator {
         // Add my scanner
         Scanner scanner = new Scanner(System.in);
 
-             // Tell user to input their first variable and assign
+        // Tell user to input their first variable and assign
         System.out.print("Enter the first number: ");
-        float firstVariable = scanner.nextFloat();
+        double firstVariable = scanner.nextDouble();
 
-             // Tell user to input their first variable and assign
+        // Tell user to input their first variable and assign
         System.out.print("Enter the second number: ");
-        float secondVariable = scanner.nextFloat();
+        double secondVariable = scanner.nextDouble();
 
 
-        // Display variables
-        //System.out.println("Enter the second number: " + secondVariable);
+        // Ask user about what math operation they want to do
+        System.out.println("Possible Calculations:\n ");
+        System.out.println("(A)dd\n" + "(S)ubtract\n" + "(M)ultiply\n" + "(D)ivide\n");
+        System.out.println("Please select an option:\n ");
+        String Operation = scanner.nextLine();
 
+        // insert the multiply operation and display the result
+        double Multiply = firstVariable * secondVariable;
+        System.out.println( firstVariable + " * " + secondVariable + " = " + Multiply);
 
-        //Tell user to input their first variable in 2 point float
-        //Display Variable
-
-        //Give possible calculations options
-
-        //Display the calculation options user can pick from
     }
 }
